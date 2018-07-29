@@ -1,8 +1,12 @@
 {
-  "description": "An example dynamic theme",
-  "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/dynamic-theme",
+  "description": "Checks the users time and then shows a new theme every hour. The theme is related to beautiful travel pictures.",
+  "homepage_url": "https://github.com/nabendu82/DynamicTravelTheme",
+  "icons": {
+    "48": "icons/logo_48.png",
+    "64": "icons/logo_64.png"
+  },
   "manifest_version": 2,
-  "name": "Dynamic theme example",
+  "name": "Dynamic Travel Theme",
   "permissions": [
     "alarms",
     "theme"
